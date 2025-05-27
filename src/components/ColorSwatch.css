@@ -1,0 +1,47 @@
+.swatch-container {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 calc(20% - 2rem); /* 5 per row, accounting for gap */
+}
+
+.swatch-block {
+  border-radius: 3px;
+  width: 180px;
+  height: 140px;
+  position: relative;
+  cursor: pointer;
+}
+
+.hover-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+}
+
+.swatch-block:hover .hover-overlay {
+  opacity: 1;
+}
+
+.swatch-details {
+  padding-top: 4px;
+}
+
+#swatch-name {
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.swatch-details p {
+  font-family: Helvetica, system-ui, Arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
