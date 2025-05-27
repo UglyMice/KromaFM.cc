@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
-import Layout from "./components/Layout";
+import Layout from "./Layout";
 import Recommendations from "./Recommendations";
-import ColorSwatch from "./components/ColorSwatch";
-import colorData from "./data/colorData";
+import ColorSwatch from "./ColorSwatch";
+import colorData from "../data/colorData";
 import "./App.css";
-import ShuffleIcon from "./assets/icons/shuffle.svg";
+import ShuffleIcon from "../assets/icons/shuffle.svg";
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("All");
