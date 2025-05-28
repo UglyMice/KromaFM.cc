@@ -97,7 +97,7 @@ function Recommendations() {
         </div>
 
         <div>
-          <label className="block font-semibold">Song or Album</label>
+          <label className="block font-semibold">Song/Album and Artist</label>
           <input
             type="text"
             name="song"
