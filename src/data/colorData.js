@@ -61,7 +61,7 @@ const colorData = [
       name: "Space Oddity",
       artist: "David Bowie",
       year: 1969,
-      category: "Blue",
+      category: ["Blue", "Black"],
     },
     {
       hex: "#FFE0C2",
@@ -378,6 +378,55 @@ const colorData = [
       year: 2021,
       category: ["Red", "Pink", "Brown"],
     },
+    {
+      name: "I Like That",
+      hex: "#990C18",
+      artist: "Janelle Monáe",
+      year: 2018,
+      category: "Red",
+    },
+    {
+      name: "Dusk",
+      hex: "#C04000",
+      artist: "Alice Phoebe Lou",
+      year: 2021,
+      category: ["Orange", "Brown"],
+    },
+    {
+      name: "Space Cowboy",
+      hex: "#7FFFD4",
+      artist: "flipturn",
+      year: 2022,
+      category: "Green",
+    },
+    {
+      name: "Savannah",
+      hex: "#645452",
+      artist: "flipturn",
+      year: 2020,
+      category: "Brown",
+    }, 
+    {
+      name: "Nobody Knows That",
+      hex: "#F9F8F1",
+      artist: "Kat Edmonson",
+      year: 2012,
+      category: "Neutral",
+    },
+    {
+      name: "The Surface",
+      hex: "#5B3256",
+      artist: "Alice Phoebe Lou",
+      year: 2025,
+      category: ["Purple", "Pink"],
+    },
+    {
+      name: "Casio",
+      hex: "#F94D00",
+      artist: "Jungle",
+      year: 2018,
+      category: "Orange",
+    },         
   ];
   
   export default colorData;
