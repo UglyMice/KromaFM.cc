@@ -16,7 +16,7 @@ const colorData = [
     },
     {
       hex: "#F2620F",
-      name: "Channel Orange",
+      name: "Super Rich Kids",
       artist: "Frank Ocean",
       year: 2012,
       category: "Orange",
