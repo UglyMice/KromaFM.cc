@@ -23,7 +23,6 @@
     overflow-y: auto;
     transition: transform 0.3s ease-in-out;
     z-index: 1000;
-    position: relative;
   }
   
   /* Hidden sidebar */
@@ -54,7 +53,7 @@
 
   /* QUERIES */
   
-  @media (max-width: 768px) {
+  @media (max-width: 900px) {
     .sidebar {
       position: fixed;
       top: 0;
@@ -63,21 +62,14 @@
       width: 100vw;
       background-color: white;
       z-index: 1000;
-      transform: translateX(-100%); /* Hide initially */
-    }
-  }
-  
-  /* Mobile behavior */
-  @media (max-width: 768px) {
-    .hamburger-btn {
-      display: block;
-    }
-  
-    .sidebar {
       transform: translateX(-100%);
     }
   
     .sidebar.visible {
       transform: translateX(0);
     }
-  }  
+  
+    .hamburger-btn {
+      display: block;
+    }
+  }   

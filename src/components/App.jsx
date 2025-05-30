@@ -44,26 +44,30 @@ function App() {
         <h1 className="title">KromaFM.cc</h1>
         <p className="sub-title">Explore a collection of over 120 colors inspired by music.</p>
 
-        <button className="shuffle-button" onClick={shuffleColors}>
-          <img src={ShuffleIcon} alt="Shuffle" className="shuffle-icon" />
-          Shuffle
-        </button>
+        <div className="button-wrapper">
+            <button className="shuffle-button" onClick={shuffleColors}>
+              <img src={ShuffleIcon} alt="Shuffle" className="shuffle-icon" />
+              Shuffle
+            </button>
+        </div>
 
         <div className="swatch-stack">
           {shuffledColors.map((swatch, index) => (
-            <ColorSwatch
-              key={index}
-              hex={swatch.hex}
-              name={swatch.name}
-              artist={swatch.artist}
-              year={swatch.year}
-              onClick={() => window.open(swatch.track.url, "_blank")}
-            />
+            <div className="swatch" key={index}>
+                <ColorSwatch
+                  key={index}
+                  hex={swatch.hex}
+                  name={swatch.name}
+                  artist={swatch.artist}
+                  year={swatch.year}
+                  onClick={() => window.open(swatch.track.url, "_blank")}
+                />
+            </div>
           ))}
         </div>
 
-        <footer>© 2025 KromaFM.cc™ · v1.0</footer>
-                      
+            <footer>© 2025 KromaFM.cc™ · v1.0</footer>
+
     </Layout>
             );
 }

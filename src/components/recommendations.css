@@ -93,3 +93,12 @@
   .back:hover {
     color: #5f6368;
   }
+
+  /* QUERIES */
+
+  @media (max-width: 480px) {
+    .recommend-form input,
+    .recommend-form textarea {
+    width: 15rem;
+  }
+}

@@ -23,7 +23,7 @@ const categoryColors = {
 function SidebarMenu({ selectedCategory, onSelectCategory }) {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(
-    typeof window !== "undefined" ? window.innerWidth <= 768 : false
+    typeof window !== "undefined" ? window.innerWidth <= 900 : false
   );
   
 
@@ -38,7 +38,7 @@ function SidebarMenu({ selectedCategory, onSelectCategory }) {
 
   // Detect window resize to check mobile
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    const handleResize = () => setIsMobile(window.innerWidth <= 900);
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
