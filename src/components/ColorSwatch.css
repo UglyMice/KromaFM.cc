@@ -36,12 +36,14 @@
 }
 
 #swatch-name {
-  font-size: 0.75rem;
+  color: rgb(28, 28, 28);
+  font-size: 0.80rem;
   font-weight: bold;
 }
 
 .swatch-details p {
+  color: #777;
   font-family: Helvetica, system-ui, Arial, sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.80rem;
   line-height: 1rem;
 }
