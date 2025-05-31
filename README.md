@@ -1,8 +1,8 @@
 ![KromaFM screenshot](./src/assets/ReadME.jpg)
 
-# KromaFM.cc - Where Color Meets Music
+# KromaFM.cc v1.0.0 - Where Color Meets Music
 
-<strong>KromaFM.cc</strong> is a passion-project web app that fuses design and music. Built with HTML, CSS, JavaScript, and React (JSX) on a Vite-powered build system, it presents an interactive color palette where each swatch is linked to a song title. KromaFM.cc began as a way to create an engaging color system that invites exploration—see which colors correspond to your favorite songs, discover new music along the way, or recommend a color to add to the collection.
+<strong>KromaFM.cc</strong> is a personal project that fuses design and music. It started as a simple way for me to learn React, JSX, and Vite, and has since developed into a creative tool with a broader vision. Built with HTML, CSS, JavaScript, and React on a Vite-powered build system, it presents an interactive color palette where each swatch is linked to a song title. The first version used a custom-built data array, and I'm now working toward integrating the Spotify API. From the start, I’ve aimed to make KromaFM.cc feel modern and minimal, while keeping it fun and explorative—see which colors correspond to your favorite songs, discover new music along the way, or recommend a color to add to the collection.
 
 ## Features:
 
