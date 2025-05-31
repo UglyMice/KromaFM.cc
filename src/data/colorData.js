@@ -1,7 +1,7 @@
 const colorData = [
     {
       hex: "#0A5BFF",
-      name: "Zombies",
+      name: "Me and Your Mama",
       artist: "Childish Gambino",
       year: 2016,
       category: "Blue",
