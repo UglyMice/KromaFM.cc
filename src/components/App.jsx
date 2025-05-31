@@ -66,7 +66,7 @@ function App() {
           ))}
         </div>
 
-            <footer>© 2025 KromaFM.cc™ · v1.0</footer>
+            <footer>© 2025 KromaFM.cc™ · v1.0.0</footer>
 
     </Layout>
             );
