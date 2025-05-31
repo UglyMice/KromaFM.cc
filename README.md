@@ -37,12 +37,11 @@ KromaFM.cc is an open-source passion project — contributions from designers, d
 
 #### - Propose UI or UX improvements
 
-### LICENSE:
-This project uses a dual license:
+## License & Brand:
+This project’s source code is licensed under the [MIT License](./LICENSE).
 
-The code is MIT licensed — use, remix, or build on it freely with credit.
+**KromaFM.cc™** is an original trademark. The name, logo, and brand identity are the intellectual property of the creator and may not be used without explicit permission.
 
-The creative content (like color names, swatch pairings, and concept) is licensed under CC BY 4.0 — remix and share with attribution.
 
 ## 🚀 Planned Features
 
