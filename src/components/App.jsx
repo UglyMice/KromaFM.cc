@@ -60,7 +60,6 @@ function App() {
                   name={swatch.name}
                   artist={swatch.artist}
                   year={swatch.year}
-                  onClick={() => window.open(swatch.track.url, "_blank")}
                 />
             </div>
           ))}
