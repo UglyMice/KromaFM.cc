@@ -1,16 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
   font-family: 'Roboto', Helvetica, system-ui, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /* base theme variables (light mode) */
+  --bg: #ffffff;
+  --color-name: rgb(28, 28, 28);
+  --color-details: #777;
+  --border-color: #f1f1f1;
 
+  /* existing optimizations */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  color-scheme: light dark;
+}
+
+/* DARK MODE OVERRIDES */
+.dark-mode {
+  --bg: #1e1e1e;
+  --text: #ffffff;
+  --color-details: #777;
+  --border-color: #777;
+}
+
+/* GLOBAL BASE STYLES */
+body {
+  background-color: var(--bg);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Reset */

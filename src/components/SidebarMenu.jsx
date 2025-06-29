@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./SidebarMenu.css";
-
+import { useDarkMode } from "../context/DarkModeContext";
 
 
 const categories = ["All", "Red", "Orange", "Yellow", "Green", "Blue", "Purple", "Pink", "Brown", "Black", "Neutral"];
@@ -21,6 +21,9 @@ const categoryColors = {
 };
 
 function SidebarMenu({ selectedCategory, onSelectCategory }) {
+  const { isDarkMode, setIsDarkMode } = useDarkMode();
+  const toggleDarkMode = () => setIsDarkMode((prev) => !prev);
+
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(
     typeof window !== "undefined" ? window.innerWidth <= 900 : false
@@ -81,6 +84,13 @@ function SidebarMenu({ selectedCategory, onSelectCategory }) {
           >
             Recommendations
           </Link>
+
+          <div>
+              <button onClick={toggleDarkMode} className="darkmode-toggle">
+                {isDarkMode ? "Lights On" : "Lights Off"}
+              </button>
+          </div>
+
         </div>
       </nav>
     </>

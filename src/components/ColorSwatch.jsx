@@ -12,10 +12,13 @@ function ColorSwatch({ name, hex, artist, year, onClick }) {
     };
 
     return (
-      <div className="swatch-conatiner">
+      <div className="swatch-container">
         <div
         className="swatch-block"
-        style={{ backgroundColor: hex }}
+        style={{ 
+          backgroundColor: hex,
+          "--glow": hex 
+        }}
         onClick={handleCopy}>
           <div className="hover-overlay">{copied ? "Copied!" : hex}</div>
         </div>

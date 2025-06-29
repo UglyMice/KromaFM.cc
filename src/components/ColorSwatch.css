@@ -1,7 +1,6 @@
 .swatch-container {
   display: flex;
   flex-direction: column;
-  flex: 0 0 calc(20% - 2rem); /* 5 per row, accounting for gap */
 }
 
 .swatch-block {
@@ -31,12 +30,18 @@
   opacity: 1;
 }
 
+/* Glow effect only in dark mode */
+body.dark-mode .swatch-block:hover {
+  box-shadow: 0 0 10px 4px var(--glow);
+  transition: box-shadow 0.3s ease;
+}
+
 .swatch-details {
   padding-top: 4px;
 }
 
 #swatch-name {
-  color: rgb(28, 28, 28);
+  color: var(--text);
   font-size: 0.80rem;
   font-weight: bold;
 }
