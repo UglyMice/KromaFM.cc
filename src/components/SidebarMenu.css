@@ -111,4 +111,9 @@
     .hamburger-btn {
       display: block;
     }
+
+    .rec-theme {
+      position: absolute;
+      right: 1rem;
+    }
   }   

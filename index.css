@@ -7,9 +7,11 @@
 
   /* base theme variables (light mode) */
   --bg: #ffffff;
-  --color-name: rgb(28, 28, 28);
+  --text: rgb(28, 28, 28);
+  --sub-text: rgb(28, 28, 28);
   --color-details: #777;
   --border-color: #f1f1f1;
+  --shuffle-btn-color: #f1f1f1;
 
   /* existing optimizations */
   font-synthesis: none;
@@ -24,8 +26,10 @@
 .dark-mode {
   --bg: #1e1e1e;
   --text: #ffffff;
+  --sub-text: #777;
   --color-details: #777;
   --border-color: #777;
+  --shuffle-btn-color: #393939;
 }
 
 /* GLOBAL BASE STYLES */

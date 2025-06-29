@@ -11,6 +11,7 @@ body {
 }
 
 footer {
+  color: var(--sub-text);
   font-size: 0.75rem;
   position: absolute;
   bottom: 8px;
@@ -38,14 +39,14 @@ footer {
 .title {
   color: var(--text);
   font-family: 'Roboto', sans-serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /* Sub-title */
 .sub-title {
-  color: var(--text);
+  color: var(--sub-text);
   font-family: 'Roboto', sans-serif;
   font-size: 0.75rem;
   margin-bottom: 2rem;
@@ -78,7 +79,7 @@ footer {
   gap: 0.5rem;
   margin: 0.5rem 0;
   padding: 0.5rem 1rem;
-  background-color: #f1f1f1;
+  background-color: var(--shuffle-btn-color);
   color: #5f6368;
   border: none;
   border-radius: 3px;
@@ -144,7 +145,6 @@ footer {
   }
 
   .title {
-    font-size: 2rem;
     margin-bottom: 1rem;
   }
 
@@ -182,7 +182,7 @@ footer {
 /* Small screens (phones, 480px and below) */
 @media (max-width: 480px) {
   .title {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .sub-title {
