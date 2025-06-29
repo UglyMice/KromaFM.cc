@@ -1,4 +1,4 @@
-<img src="ReadMe.jpg" alt="heading image" width="60%" />
+![KromaFM](src/assets/ReadMe.jpg)
 
 # KromaFM.cc v1.1 - Where Color Meets Music
 
@@ -48,7 +48,7 @@ This project’s source code is licensed under the [MIT License](./LICENSE).
 
 **KromaFM.cc™** is an original trademark. The name, logo, and brand identity are the intellectual property of the creator and may not be used without explicit permission.
 
-<img src="ReadMe(2).jpg" alt="heading image" width="50%" />
+![KromaFM](src/assets/ReadMe2.jpg)
 
 ## 🚀 Planned Features
 
