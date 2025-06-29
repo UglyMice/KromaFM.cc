@@ -5,12 +5,39 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /* base theme variables (light mode) */
+  --bg: #ffffff;
+  --color-name: rgb(28, 28, 28);
+  --color-details: #777;
+  --accent: #ff8c42;
+  --border: #e0e0e0;
+  --card: #f8f8f8;
 
+  /* existing optimizations */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  color-scheme: light dark;
+}
+
+/* DARK MODE OVERRIDES */
+.dark-mode {
+  --bg: #1e1e1e;
+  --color-name: #ffffff;
+  --color-details: #777;
+  --text: #f5f5f5;
+  --accent: #ffb347;
+  --border: #333333;
+  --card: #2a2a2a;
+}
+
+/* GLOBAL BASE STYLES */
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Reset */
