@@ -41,13 +41,13 @@ body.dark-mode .swatch-block:hover {
 }
 
 #swatch-name {
-  color: var(--color-name);
+  color: var(--text);
   font-size: 0.80rem;
   font-weight: bold;
 }
 
 .swatch-details p {
-  color: var(--color-details);
+  color: #777;
   font-family: Helvetica, system-ui, Arial, sans-serif;
   font-size: 0.80rem;
   line-height: 1rem;

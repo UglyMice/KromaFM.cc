@@ -36,18 +36,19 @@ footer {
 
 /* Title */
 .title {
+  color: var(--text);
   font-family: 'Roboto', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 /* Sub-title */
 .sub-title {
+  color: var(--text);
   font-family: 'Roboto', sans-serif;
   font-size: 0.75rem;
-  margin-top: -1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 /* Swatch stack container */

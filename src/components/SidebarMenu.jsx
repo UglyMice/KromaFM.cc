@@ -85,9 +85,9 @@ function SidebarMenu({ selectedCategory, onSelectCategory }) {
             Recommendations
           </Link>
 
-          <div style={{ padding: "0.5rem 0" }}>
+          <div>
               <button onClick={toggleDarkMode} className="darkmode-toggle">
-                {isDarkMode ? "Light Mode" : "Dark Mode"}
+                {isDarkMode ? "Lights On" : "Lights Off"}
               </button>
           </div>
 
