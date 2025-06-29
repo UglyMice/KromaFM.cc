@@ -72,12 +72,7 @@ function SidebarMenu({ selectedCategory, onSelectCategory }) {
 
         <hr style={{ margin: "1rem 0", borderColor: "#f9f9f9 ", borderWidth: "0.6px" }} />
 
-        <div
-          style={{
-            padding: "0.5rem 0",
-            cursor: "pointer",
-          }}
-        >
+        <div className="rec-theme">
           <Link
             to="/Recommendations"
             className="recommendations-link"
@@ -85,13 +80,12 @@ function SidebarMenu({ selectedCategory, onSelectCategory }) {
             Recommendations
           </Link>
 
-          <div>
-              <button onClick={toggleDarkMode} className="darkmode-toggle">
-                {isDarkMode ? "Lights On" : "Lights Off"}
-              </button>
-          </div>
+          <button onClick={toggleDarkMode} className="darkmode-toggle">
+            {isDarkMode ? "Lights On" : "Lights Off"}
+          </button>
 
         </div>
+
       </nav>
     </>
   );

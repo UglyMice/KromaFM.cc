@@ -201,7 +201,7 @@ footer {
   }
 
   .swatch-stack {
-    padding: 0 0.5rem;
+    padding: 0.8rem 0.5rem;
     max-height: 80vh; /* limit height on small screens */
     overflow-y: auto;
   }
