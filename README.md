@@ -48,7 +48,7 @@ This project’s source code is licensed under the [MIT License](./LICENSE).
 
 **KromaFM.cc™** is an original trademark. The name, logo, and brand identity are the intellectual property of the creator and may not be used without explicit permission.
 
-<img src="public/ReadME2.jpg" alt="darkmode" width="60%" />
+<img src="public/ReadME2.jpg" alt="darkmode" width="70%" />
 
 ## 🚀 Planned Features
 
