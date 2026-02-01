@@ -62,5 +62,5 @@ Have ideas? Let me know — I’d love to grow this with community input.
 ##
 
 **Andre Mikel** <br>
-Email: andremikel.dev@gmail.com <br>
+Email: andremikel@icloud.com <br>
 GitHub: [@UglyMice](https://github.com/UglyMice)
